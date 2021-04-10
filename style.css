@@ -8,22 +8,43 @@ html {
   font-size: 10px;
   color: #4e4d4d;
   font-family: "Roboto", sans-serif;
+  font-family: "Bangers", cursive;
   font-weight: 300;
+}
+
+body {
+  background: #a8c0ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3f2b96,
+    #a8c0ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3f2b96,
+    #a8c0ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 main {
   max-width: 50rem;
-  margin: 2rem auto;
-  background: linear-gradient(30deg, #3dc0c0, #5bceae);
+  margin: 5rem auto;
+  background: linear-gradient(30deg, #5911e0, #ffffff);
   padding: 3rem 1.6rem 6rem 1.6rem;
   border-radius: 4rem;
-  box-shadow: 0 2px 2px lightgrey;
+  box-shadow: 0 2px 2px black;
 }
 
 h1 {
   text-align: center;
   font-size: 3rem;
-  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+  color: black;
+  font-weight: 700;
+  font-family: "Bangers", cursive;
+  border: 1px solid black;
+  padding: 1rem 1rem;
+  border-radius: 50px;
 }
 
 section {
@@ -80,7 +101,7 @@ input[type="number"] {
   background: #eee;
   margin-top: 1.2rem;
   border-radius: 0.3rem;
-  outline-color: #5bceae;
+  outline-color: #b26acf;
 }
 
 .range::-webkit-slider-thumb {
@@ -88,7 +109,7 @@ input[type="number"] {
   width: 2.2rem;
   height: 2.2rem;
   border-radius: 50%;
-  background: #3dc0c0;
+  background: #635c5c;
   cursor: pointer;
 }
 
@@ -96,7 +117,7 @@ input[type="number"] {
   width: 2.2rem;
   height: 2.2rem;
   border-radius: 50%;
-  background: #3dc0c0;
+  background: #000000;
   cursor: pointer;
   border: none;
 }
