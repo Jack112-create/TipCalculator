@@ -121,3 +121,9 @@ input[type="number"] {
   cursor: pointer;
   border: none;
 }
+
+@media only screen and (max-width: 500px) {
+  main {
+    margin: 5rem 2rem;
+  }
+}
